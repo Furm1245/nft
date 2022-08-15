@@ -1,0 +1,36 @@
+.rec img {
+    width: 15rem;
+    /* height: 35rem; */
+}
+
+.rec img:hover {
+    opacity: 0.8;
+    color: black;
+}
+
+.rec button {
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+
+.rec button:hover {
+    background-color: white;
+    color: black;
+}
+
+.rec button:hover:enabled,
+.rec button:focus:enabled {
+    background-color: black;
+}
+
+.rec button:disabled,
+.rec button:disabled {
+    visibility: hidden;
+}
+
+.rec button:hover,
+.rec button:focus {
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px grey;
+}

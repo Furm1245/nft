@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    height: 60vh;
+}
+
+.about_section {
+    background: grey;
+}
+
+.about {
+    height: 40vh;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about img {
+    width: 350px;
+    padding-right: 7.5rem;
+}
+
+.about_info {
+    width: 60%;
+    font-size: 25px;
+}
+
+.slideshow_section {
+    height: 40vh;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    background: grey
+}
+
+
+.faq img {
+    width: 500px;
+    padding-right: 3rem;
+}
