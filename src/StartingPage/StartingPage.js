@@ -72,20 +72,12 @@ const StartingPage = () => {
                         </div>
                     )}
                     <div >
-                        <Questions question={'how many in collection?'} />
+                        <Questions question={'will there be whitelist?'} />
                     </div>
                     <div >
-                        <Questions question={'how many in collection?'} />
+                        <Questions question={'which wallets am i able to use?'} />
                     </div>
-                    <div >
-                        <Questions question={'how many in collection?'} />
-                    </div>
-                    <div >
-                        <Questions question={'how many in collection?'} />
-                    </div>
-                    <div >
-                        <Questions question={'how many in collection?'} />
-                    </div>
+
                 </div>
             </section>
             <section className='banner'>
