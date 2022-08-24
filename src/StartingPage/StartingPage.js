@@ -10,10 +10,16 @@ const StartingPage = () => {
     const [open1, setOpen1] = useState(false)
     const [open2, setOpen2] = useState(false)
     const [open3, setOpen3] = useState(false)
+    const [open4, setOpen4] = useState(false)
+    const [open5, setOpen5] = useState(false)
+    const [open6, setOpen6] = useState(false)
 
     const handleOpen1 = () => setOpen1(!open1)
     const handleOpen2 = () => setOpen2(!open2)
     const handleOpen3 = () => setOpen3(!open3)
+    const handleOpen4 = () => setOpen4(!open4)
+    const handleOpen5 = () => setOpen5(!open5)
+    const handleOpen6 = () => setOpen6(!open6)
 
 
     return (
@@ -71,12 +77,22 @@ const StartingPage = () => {
                             <Answer answer={'2000'} />
                         </div>
                     )}
-                    <div >
+                    <div onClick={handleOpen4} >
                         <Questions question={'will there be whitelist?'} />
                     </div>
-                    <div >
+                    {open4 === true && (
+                        <div className='question'>
+                            <Answer answer={'No'} />
+                        </div>
+                    )}
+                    <div onClick={handleOpen5} >
                         <Questions question={'which wallets am i able to use?'} />
                     </div>
+                    {open5 === true && (
+                        <div className='question'>
+                            <Answer answer={'Phantom'} />
+                        </div>
+                    )}
 
                 </div>
             </section>
