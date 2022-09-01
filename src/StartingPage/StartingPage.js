@@ -4,6 +4,8 @@ import Answer from '../components/Questions/Answer'
 import { useState } from 'react'
 import SimpleSlider from '../components/UI/Slider'
 import mark from '../components/assets/mark.png'
+import sketch from '../components/assets/sketch.png'
+import laser from '../components/assets/30.png'
 
 const StartingPage = () => {
 
@@ -31,7 +33,7 @@ const StartingPage = () => {
                 <h2>About Us</h2>
                 <div className='about'>
                     <div className='about_image'>
-                        <img src={mark} alt='an nft' />
+                        <img src={sketch} alt='an nft' />
                     </div>
                     <div className='about_info'>
                         In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
@@ -50,7 +52,7 @@ const StartingPage = () => {
             <section className='faq'>
                 <div className='nft_image'>
                     <h2>FAQ</h2>
-                    <img src={mark} alt='an nft' />
+                    <img src={laser} alt='an nft' />
                 </div>
                 <div className='questions'>
                     <div onClick={handleOpen1}>

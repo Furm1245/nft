@@ -3,11 +3,12 @@ import 'slick-carousel/slick/slick-theme.css';
 // import classes from './slider.module.css'
 import React from "react";
 // import { Link } from 'react-router-dom'
-// import { useContext } from 'react';
-// import { ShopContext } from '../../store/ShopProvider';
 import './slider.css'
 import Carousel from "react-elastic-carousel";
-import mark from '../assets/mark.png'
+import dirt from '../assets/225.png'
+import green from '../assets/400.png'
+import toxic from '../assets/166.png'
+import last from '../assets/833.png'
 
 
 
@@ -46,39 +47,27 @@ const SimpleSlider = (props) => {
             <Carousel className='slider' responsive breakPoints={breakpoints} >
                 <div>
                     <img
-                        src={mark}
+                        src={dirt}
                         alt='the product'
                     />
-                    {/* <div >
-                        <p>ssssssssss</p>
-                    </div> */}
                 </div>
                 <div>
                     <img
-                        src={mark}
+                        src={green}
                         alt='the product'
                     />
-                    {/* <div >
-                        <p>ssssssssss</p>
-                    </div> */}
                 </div>
                 <div>
                     <img
-                        src={mark}
+                        src={toxic}
                         alt='the product'
                     />
-                    {/* <div >
-                        <p>ssssssssss</p>
-                    </div> */}
                 </div>
                 <div>
                     <img
-                        src={mark}
+                        src={last}
                         alt='the product'
                     />
-                    {/* <div >
-                        <p>ssssssssss</p>
-                    </div> */}
                 </div>
             </Carousel>
         </div>
