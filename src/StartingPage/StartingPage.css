@@ -11,15 +11,15 @@ body {
 }
 
 .about {
-    height: 40vh;
+    height: 45vh;
     display: flex;
     width: 70%;
     margin: 0 auto;
 }
 
 .about img {
-    width: 350px;
-    padding-right: 7.5rem;
+    width: 550px;
+    padding-right: 5.5rem;
 }
 
 .about_info {
