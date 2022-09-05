@@ -1,0 +1,141 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+a:after,
+a:active {
+    text-decoration: none;
+}
+
+.checkout {
+    padding-top: 1.25rem;
+}
+
+.nav a:visited,
+.nav p {
+    color: white;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+.nav a:active,
+a:after {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    /* border-bottom: 1px solid white; */
+    /* background: rgb(1, 1, 0); */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav ul {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.gender:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__brand img {
+    height: 9rem;
+    width: 11rem;
+}
+
+
+.nav__links {
+    margin: auto;
+}
+
+.nav__link {
+    padding: 0 1rem;
+}
+
+.nav__toggler {
+    display: none;
+}
+
+.nav__toggler div {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: white;
+}
+
+.nav__icons {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav__links ul {
+        display: none
+    }
+
+    .nav a:visited,
+    .nav p {
+        color: black;
+    }
+
+
+    .nav__icons {
+        margin-left: auto;
+    }
+
+    .nav__toggler {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav__toggler_expanded {
+        margin-left: auto;
+    }
+
+    .nav__links_expanded ul {
+        display: flex;
+        position: absolute;
+        top: 99px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 77px);
+        background-color: white;
+        color: black;
+        padding: 1rem 0;
+        border-top: 1px solid black;
+        margin-bottom: 10rem;
+    }
+
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: white;
+        color: black;
+        width: 100%;
+        padding: 0;
+        z-index: 1045;
+
+    }
+
+    .nav p {
+        font-weight: 700;
+    }
+
+}

@@ -3,12 +3,24 @@ body {
 }
 
 .banner {
-    height: 60vh;
+    height: 90vh;
+    background: url(../components/assets/banner.jpg)0% 0% / cover no-repeat;
+    background-position: left;
+    /* width: 50%; */
 }
 
-.about_section {
-    background: grey;
+.title {
+    text-align: center;
+    color: white;
 }
+
+.butt {
+    text-align: center;
+}
+
+/* .about_section {
+    background: grey;
+} */
 
 .about {
     height: 45vh;

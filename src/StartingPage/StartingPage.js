@@ -3,9 +3,9 @@ import Questions from '../components/Questions/Questions'
 import Answer from '../components/Questions/Answer'
 import { useState } from 'react'
 import SimpleSlider from '../components/UI/Slider'
-import mark from '../components/assets/mark.png'
 import sketch from '../components/assets/sketch.png'
 import laser from '../components/assets/30.png'
+import Navbar from '../components/Wrapper/Navbar'
 
 const StartingPage = () => {
 
@@ -21,13 +21,23 @@ const StartingPage = () => {
     const handleOpen3 = () => setOpen3(!open3)
     const handleOpen4 = () => setOpen4(!open4)
     const handleOpen5 = () => setOpen5(!open5)
-    const handleOpen6 = () => setOpen6(!open6)
+    // const handleOpen6 = () => setOpen6(!open6)
 
 
     return (
         <main>
             <section className='banner'>
-                banner
+                <Navbar />
+                <div className='title'>
+                    <p>Welcome to Robo Invaderz</p>
+                </div>
+                <div className='title'>
+                    <p>Inspired from ...</p>
+                </div>
+                <div className='butt'>
+                    <button>Click Me</button>
+                </div>
+
             </section>
             <section className='about_section'>
                 <h2>About Us</h2>
