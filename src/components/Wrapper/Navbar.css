@@ -35,9 +35,7 @@ a:after {
     font-size: 1.75rem;
     font-family: 'Montserrat', sans-serif;
     height: 100px;
-    /* border-bottom: 1px solid white; */
-    /* background: rgb(1, 1, 0); */
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 1;
 }
@@ -47,20 +45,10 @@ a:after {
     margin-bottom: 0;
 }
 
-.gender:hover .dropdown {
-    display: flex;
-    flex-direction: column;
-}
 
-.nav__brand img {
-    height: 9rem;
-    width: 11rem;
-}
-
-
-.nav__links {
+/* .nav__links {
     margin: auto;
-}
+} */
 
 .nav__link {
     padding: 0 1rem;

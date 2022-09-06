@@ -28,19 +28,21 @@ const StartingPage = () => {
         <main>
             <section className='banner'>
                 <Navbar />
-                <div className='title'>
-                    <p>Welcome to Robo Invaderz</p>
-                </div>
-                <div className='title'>
-                    <p>Inspired from ...</p>
-                </div>
-                <div className='butt'>
-                    <button>Click Me</button>
+                <div className='header'>
+                    <div className='title'>
+                        <p>Welcome to <br></br> Robo Invaderz</p>
+                    </div>
+                    <div className='title'>
+                        <p>Inspired from ...</p>
+                    </div>
+                    <div className='butt'>
+                        <button>Click Me</button>
+                    </div>
                 </div>
 
             </section>
             <section className='about_section'>
-                <h2>About Us</h2>
+                {/* <h2>About Us</h2> */}
                 <div className='about'>
                     <div className='about_image'>
                         <img src={sketch} alt='an nft' />
