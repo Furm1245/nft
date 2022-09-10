@@ -20,6 +20,7 @@ const Navbar = (props) => {
                     <Link className='nav__link' onClick={() => setOpen(false)} to="/"><p>Home</p></Link>
                     <p className='nav__link' to="/">About Us</p>
                     <p className='nav__link' to="/">Examples</p>
+                    <p className='nav__link' to="/">Coming Soon</p>
                     {/* <Link className='nav__link' onClick={() => setOpen(false)} to="/collections/beanies"> */}
                     <p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="17" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">

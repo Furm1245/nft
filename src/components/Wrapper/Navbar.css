@@ -18,9 +18,9 @@ a:active {
     color: white;
 }
 
-.nav a:hover {
+/* .nav a:hover {
     border-bottom: 2px solid white;
-}
+} */
 
 .nav a:active,
 a:after {
@@ -32,7 +32,7 @@ a:after {
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     height: 100px;
     /* position: sticky; */

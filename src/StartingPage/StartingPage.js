@@ -30,13 +30,13 @@ const StartingPage = () => {
                 <Navbar />
                 <div className='header'>
                     <div className='title'>
-                        <p>Welcome to <br></br> Robo Invaderz</p>
+                        <p>Welcome to Robo Invaderz</p>
                     </div>
                     <div className='title'>
                         <p>Inspired from ...</p>
                     </div>
-                    <div className='butt'>
-                        <button>Click Me</button>
+                    <div >
+                        <button className='butt'>Click Me</button>
                     </div>
                 </div>
 
@@ -46,6 +46,9 @@ const StartingPage = () => {
                 <div className='about'>
                     <div className='about_image'>
                         <img src={sketch} alt='an nft' />
+                        <div>
+                            <i>The making of Robo Invaderz</i>
+                        </div>
                     </div>
                     <div className='about_info'>
                         In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
@@ -57,7 +60,7 @@ const StartingPage = () => {
                 </div>
             </section>
             <section className='slideshow_section'>
-                <h2>More Examples</h2>
+                {/* <h2>More Examples</h2> */}
                 <SimpleSlider />
             </section>
             {/* <h2>FAQ</h2> */}
@@ -110,7 +113,7 @@ const StartingPage = () => {
 
                 </div>
             </section>
-            <section className='banner'>
+            <section >
                 coming soon
             </section>
         </main>
