@@ -6,8 +6,10 @@ import React from "react";
 import './slider.css'
 import Carousel from "react-elastic-carousel";
 import dirt from '../assets/225.png'
+import slime from '../assets/17.png'
 import green from '../assets/400.png'
 import toxic from '../assets/166.png'
+import something from '../assets/705.png'
 import last from '../assets/833.png'
 
 
@@ -38,7 +40,7 @@ const SimpleSlider = (props) => {
         { width: 700, itemsToShow: 2 },
         { width: 900, itemsToShow: 3 },
         { width: 1550, itemsToShow: 3 },
-        { width: 1600, itemsToShow: 3 },
+        { width: 1600, itemsToShow: 4 },
     ];
 
 
@@ -53,6 +55,12 @@ const SimpleSlider = (props) => {
                 </div>
                 <div>
                     <img
+                        src={something}
+                        alt='the product'
+                    />
+                </div>
+                <div>
+                    <img
                         src={green}
                         alt='the product'
                     />
@@ -60,6 +68,12 @@ const SimpleSlider = (props) => {
                 <div>
                     <img
                         src={toxic}
+                        alt='the product'
+                    />
+                </div>
+                <div>
+                    <img
+                        src={slime}
                         alt='the product'
                     />
                 </div>

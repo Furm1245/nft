@@ -29,12 +29,17 @@ const StartingPage = () => {
             <section className='banner'>
                 <Navbar />
                 <div className='header'>
-                    <div className='title'>
-                        <p>Welcome to Robo Invaderz</p>
+                    <div>
+                        <div className='title'>
+                            <p>Welcome to Robo Invaderz</p>
+                        </div>
+                        <div className='title2'>
+                            <p>Inspired from Invader Zim</p>
+                        </div>
                     </div>
-                    <div className='title'>
+                    {/* <div className='title'>
                         <p>Inspired from ...</p>
-                    </div>
+                    </div> */}
                     <div >
                         <button className='butt'>Click Me</button>
                     </div>
@@ -113,7 +118,7 @@ const StartingPage = () => {
 
                 </div>
             </section>
-            <section >
+            <section>
                 coming soon
             </section>
         </main>
